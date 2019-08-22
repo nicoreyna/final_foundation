@@ -1,0 +1,49 @@
+body{
+  background-image: url(../img/8.jpg);
+  background-attachment: fixed;
+}
+
+.main{
+  background-color: hsla(46, 72%, 72%, 0.7);
+}
+
+#title{
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+#favoritos{
+  background-color: hsla(235, 41%, 38%, 0.7);
+}
+
+#contenido>div.row{
+  background-color: hsla(152, 41%, 38%, 0.7);
+}
+
+h3, h6{
+  padding-left: 10px;
+}
+
+#parrafo{
+  text-align: justify;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+#enviar{
+  text-align: center;
+}
+
+.container-1{
+  width: 300px;
+  margin-top: 20px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.textarea{
+  background-color: hsla(0, 100%, 100%, 0.5)
+}
