@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de comidas</title>
     <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
 
@@ -30,8 +31,7 @@
       <div class="large-4 column" id="favoritos">
         <div class="box">
           <div class="container-1">
-            <span class="icon"><i class="fa fa-search"></i></span>
-            <input type="search" id="search" placeholder="Buscar..." />
+            <input type="search" name="search" placeholder="Buscar.." class=".fi-magnifying-glass">
           </div>
         </div>
         <hr>
@@ -95,13 +95,31 @@
             <h4 style="padding-left: 10px;">Agregar una nueva comentario:</h4> <p><textarea class="textarea" name="descripcion" cols="40" rows="5"></textarea></p>
             <p id="enviar"><input type="submit" value="Enviar"></p>
           </form>
-          <hr>
-          <div class="column large-2">
-            <i class="step fi-torso-female size-48"></i>
+          <hr class="comentarios">
+          <div class="row">
+            <div class="column large-2 text-center">
+              <i class="fi-torso-female size-72"></i>
+            </div>
+            <div class="column large-10 span">
+              <span>Que rico, suban mas de este estilo. Genios</span>
+            </div>
+            <hr class="comentarios">
           </div>
-          <div class="column large-10">
-            <h3>Ensalada de patata y aguacate. Sencilla y riquísima: preparación de la receta</h3>
-            <h6><i>23 de Marzo de 2019</i></h6>
+          <div class="row">
+            <div class="column large-2 text-center comentarios">
+              <i class="fi-torso-female size-72"></i>
+            </div>
+            <div class="column large-10 span">
+              <span>Muy facil y riquísima!</span>
+            </div>
+            <hr class=" comentarios">
+          </div><div class="row">
+            <div class="column large-2 text-center comentarios">
+              <i class="fi-torso size-72"></i>
+            </div>
+            <div class="column large-10 span">
+              <span>Prefiero cuando suben recetas de postres o cosas dulces.</span>
+            </div>
           </div>
         </div>
         <hr>
@@ -132,11 +150,26 @@
             <h4 style="padding-left: 10px;">Agregar una nueva comentario:</h4> <p><textarea class="textarea" name="descripcion" cols="40" rows="5"></textarea></p>
             <p  id="enviar"><input type="submit" value="Enviar"></p>
           </form>
-          <hr>
-          <div class="">
-
-          </div>
-        </div>
+          <hr class="comentarios">
+          <form>
+            <div class="row">
+              <div class="column large-2 text-center comentarios">
+                <i class="fi-torso size-72"></i>
+              </div>
+              <div class="column large-10 span">
+                <span>Probé hacerla, seguí los pasos y me salio a la perfección. Gracias!!!!!!!!</span>
+              </div>
+              <hr class=" comentarios">
+            </div>
+            <div class="row">
+              <div class="column large-2 text-center comentarios">
+                <i class="fi-torso-female size-72"></i>
+              </div>
+              <div class="column large-10 span">
+                <span>Me gustó, quiero mas recetas iguales.</span>
+              </div>
+              <hr class=" comentarios">
+            </div>
         </div>
       </div>
 
